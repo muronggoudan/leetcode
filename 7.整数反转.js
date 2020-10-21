@@ -20,5 +20,6 @@ var reverse = function(x) {
   xnumber = + xstring.split('').reverse().join('');
   return xnumber > Math.pow(2, 31) - 1 ? 0 : xnumber;
 };
+
 // @lc code=end
 
